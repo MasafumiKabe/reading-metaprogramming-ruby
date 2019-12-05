@@ -4,4 +4,13 @@ class Hoge
   # "hoge" という文字列を返すhogehogeメソッドを持つ
   # HogeクラスのスーパークラスはStringである
   # 自身が"hoge"という文字列である時（HogeクラスはStringがスーパークラスなので、当然自身は文字列である）、trueを返すhoge?メソッドが定義差されている
+  Hoge = "hoge"
+
+  def hogehoge
+    "hoge"
+  end
+
+  def hoge?
+    self == "hoge"
+  end
 end

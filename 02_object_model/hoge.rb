@@ -1,4 +1,4 @@
-class Hoge
+class Hoge < String
   # Hogeクラスの仕様
   # "hoge" という文字列の定数Hogeを持つ
   # "hoge" という文字列を返すhogehogeメソッドを持つ
